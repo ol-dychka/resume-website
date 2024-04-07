@@ -1,14 +1,14 @@
 <script setup></script>
 
 <template>
-  <div class="bg-white px-56 py-12">
+  <div class="bg-white px-56 py-16" id="about">
     <div class="flex justify-between gap-12">
       <img
         src="@/assets/cozy-workplace.jpeg"
         class="h-[300px] w-auto rounded-lg"
       />
       <div class="space-y-4">
-        <p class="text-3xl">About Me</p>
+        <p class="text-3xl text-teal-800">About Me</p>
         <p class="text-gray-700">
           Hey, my name is Oleksandr and I'm a frontend developer based in
           Toronto, Canada. My passion is building innovative user experience.

@@ -17,8 +17,19 @@ const getImageUrl = () => {
         <p class="font-normal mt-4">{{ text }}</p>
       </div>
       <div class="flex gap-8">
-        <a :href="links.preview">Preview</a>
-        <a :href="links.github"> <v-icon name="bi-github" scale="1.5" /></a>
+        <a
+          :href="links.preview"
+          target="_blank"
+          class="hover:text-teal-800 duration-200"
+          >Preview</a
+        >
+        <a
+          :href="links.github"
+          target="_blank"
+          class="hover:text-teal-800 duration-200"
+        >
+          <v-icon name="bi-github" scale="1.5" />
+        </a>
       </div>
     </div>
   </div>

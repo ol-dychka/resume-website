@@ -1,19 +1,29 @@
 <script setup></script>
 
 <template>
-  <div class="px-48 py-12">
+  <div class="px-48 py-12" id="home">
     <div class="flex justify-between items-center gap-12">
       <div class="space-y-8">
-        <p class="font-bold text-7xl">Front-End React Developer</p>
+        <p class="font-bold text-7xl text-teal-800">
+          Front-End React Developer
+        </p>
         <p>
           Hi, I'm Oleksandr Dychka. Passionate developer and avid learner based
           in Toronto, Canada
         </p>
         <div class="flex gap-4">
-          <a href="https://linkedin.com/">
+          <a
+            href="https://linkedin.com/in/ol-dychka"
+            target="_blank"
+            class="hover:text-teal-800 duration-200"
+          >
             <v-icon name="bi-linkedin" scale="2.5" />
           </a>
-          <a href="https://github.com/">
+          <a
+            href="https://github.com/ol-dychka"
+            target="_blank"
+            class="hover:text-teal-800 duration-200"
+          >
             <v-icon name="bi-github" scale="2.5" />
           </a>
         </div>

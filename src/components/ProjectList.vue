@@ -14,8 +14,8 @@ const images = {
 </script>
 
 <template>
-  <div class="px-32 py-12 space-y-16">
-    <p class="text-7xl text-center font-bold">My Projects</p>
+  <div class="px-32 py-12 space-y-16" id="projects">
+    <p class="text-7xl text-center font-bold text-teal-800">My Projects</p>
     <ProjectItem
       title="Bicycle Website Landing Page"
       text="This website is a replica of Columbus Trittico website that was featured on Awwwards for its design. I maintained the same design style using React and Tailwind."
