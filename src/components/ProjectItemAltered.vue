@@ -31,6 +31,6 @@ const getImageUrl = () => {
         </a>
       </div>
     </div>
-    <img :src="getImageUrl()" class="h-auto w-[500px] rounded-lg" />
+    <img :src="import(getImageUrl())" class="h-auto w-[500px] rounded-lg" />
   </div>
 </template>
