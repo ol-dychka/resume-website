@@ -8,14 +8,15 @@
         <p class="font-normal mt-4">
           This website is a replica of
           <a
-            href="https://trittico-clone.pages.dev/"
+            href="https://www.columbus1919.com/trittico"
             target="_blank"
             class="text-teal-800 underline"
             >Columbus Trittico</a
           >
           website that was featured on Awwwards for its design. I maintained the
-          same design style using React and Tailwind.
+          same minimalistic design style.
         </p>
+        <p class="font-normal mt-4">Stack: React, Tailwind</p>
       </div>
       <div class="flex gap-8">
         <a

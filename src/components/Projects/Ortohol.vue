@@ -16,14 +16,19 @@ const getImageUrl = () => {
       <div>
         <p class="text-3xl">Orthopedics Ecommerce Website</p>
         <p class="font-normal mt-4">
-          This website was developed for an e-commerce business. It features
-          pagination, login and payment w/ Stripe. Please note that it is still
-          in development and thus some features may be absent or unfinished.
+          This website was developed for an e-commerce business. Features:
+          Pagination, Search, Filtering, Login, Payment w/ Stripe. Please note
+          that up-to-day code on Github and published version might have a few
+          differences.
+        </p>
+        <p class="font-normal mt-4">
+          Backend: C# with layered architecture, PostgreSQL, Docker. Frontend:
+          React, Typescript, MobX, Material UI
         </p>
       </div>
       <div class="flex gap-8">
         <a
-          href="http://bogkrovi-env.eba-gk3zcthi.us-east-2.elasticbeanstalk.com/"
+          href="https://ortohol-latest.onrender.com/"
           target="_blank"
           class="hover:text-teal-800 duration-200"
           >Preview</a

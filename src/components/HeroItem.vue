@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <div class="px-48 py-12" id="home">
+  <div class="px-32 py-12" id="home">
     <div class="flex justify-between items-center gap-12">
       <div class="space-y-8">
         <p class="font-bold text-7xl text-teal-800">
@@ -11,29 +11,23 @@
           Hi, I'm Oleksandr Dychka. Passionate developer and avid learner based
           in Toronto, Canada
         </p>
-        <div class="flex gap-4">
-          <a
-            href="https://linkedin.com/in/ol-dychka"
-            target="_blank"
-            class="hover:text-teal-800 duration-200"
-          >
-            <v-icon name="bi-linkedin" scale="2.5" />
-          </a>
-          <a
-            href="https://github.com/ol-dychka"
-            target="_blank"
-            class="hover:text-teal-800 duration-200"
-          >
-            <v-icon name="bi-github" scale="2.5" />
-          </a>
-        </div>
       </div>
 
-      <div>
-        <img
-          src="@/assets/profile.jpg"
-          class="rounded-full w-[500px] h-[500px] object-cover"
-        />
+      <div class="flex gap-4">
+        <a
+          href="https://linkedin.com/in/ol-dychka"
+          target="_blank"
+          class="hover:text-teal-800 duration-200"
+        >
+          <v-icon name="bi-linkedin" scale="2.5" />
+        </a>
+        <a
+          href="https://github.com/ol-dychka"
+          target="_blank"
+          class="hover:text-teal-800 duration-200"
+        >
+          <v-icon name="bi-github" scale="2.5" />
+        </a>
       </div>
     </div>
 
