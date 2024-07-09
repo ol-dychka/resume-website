@@ -27,7 +27,7 @@
           <v-icon name="bi-github" scale="2.5" />
         </a>
         <a
-          href="https://drive.google.com/file/d/14YHq2PgjxFsb3FAC_jEAGtne8RaS-Wos/view?usp=sharing"
+          href="https://docs.google.com/document/d/197otNeEH-Zz82BCh6Zv6c49eMeXKM0BqPIDdiJNRdL8/view?usp=sharing"
           target="_blank"
           class="hover:text-teal-800 duration-200 text-2xl"
         >
@@ -54,6 +54,7 @@
       </div>
       <div class="flex gap-2">
         <v-icon name="vi-file-type-tailwind" scale="2.5" />
+        <v-icon name="si-mui" scale="2.5" />
       </div>
     </div>
   </div>

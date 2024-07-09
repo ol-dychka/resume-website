@@ -10,12 +10,12 @@
       <div class="space-y-4">
         <p class="text-3xl text-teal-800">About Me</p>
         <p class="text-gray-700">
-          Hey, my name is Oleksandr and I'm a frontend developer based in
+          Hey, my name is Oleksandr and I'm a Full Stack developer based in
           Toronto, Canada. My passion is building innovative user experience.
         </p>
         <p class="text-gray-700">
-          My main stack is currently React/NextJS with Typescript and Tailwind
-          CSS
+          My main stack is currently C#, React/NextJS with Typescript and
+          Tailwind CSS
         </p>
       </div>
     </div>

@@ -16,6 +16,7 @@ import {
   ViFileTypeCsharp2,
   ViFileTypeJsOfficial,
   ViFileTypeTypescriptOfficial,
+  SiMui,
 } from "oh-vue-icons/icons";
 
 addIcons(
@@ -30,6 +31,7 @@ addIcons(
   ViFileTypeTailwind,
   ViFileTypeTypescriptOfficial,
   ViFileTypeVue,
+  SiMui
 );
 
 const app = createApp(App);

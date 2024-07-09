@@ -16,10 +16,10 @@ const getImageUrl = () => {
       <div>
         <p class="text-3xl">Orthopedics Ecommerce Website</p>
         <p class="font-normal mt-4">
-          [Does not temporarily work] This website was developed for an
-          e-commerce business. Features: Pagination, Search, Filtering, Login,
-          Payment w/ Stripe. Please note that up-to-day code on Github and
-          published version might have a few differences.
+          This website was developed for an e-commerce business. Features:
+          Pagination, Search, Filtering, Login, Payment w/ Stripe. Please note
+          that up-to-day code on Github and published version might have a few
+          differences.
         </p>
         <p class="font-normal mt-4">
           Backend: C# with layered architecture, PostgreSQL, Docker. Frontend:
