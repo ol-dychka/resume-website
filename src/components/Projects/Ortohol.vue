@@ -1,12 +1,4 @@
-<script setup>
-import { defineProps } from "vue";
-
-const props = defineProps(["title", "text", "image", "links"]);
-
-const getImageUrl = () => {
-  return new URL(props.image, import.meta.url);
-};
-</script>
+<script setup></script>
 
 <template>
   <div class="flex justify-between gap-12">
@@ -16,10 +8,10 @@ const getImageUrl = () => {
       <div>
         <p class="text-3xl">Orthopedics Ecommerce Website</p>
         <p class="font-normal mt-4">
-          [Can take about a minute to start] This website was developed for an
-          e-commerce business. Features: Pagination, Search, Filtering, Login,
-          Payment w/ Stripe. Please note that up-to-day code on Github and
-          published version might have a few differences.
+          [Currently Inactive] This website was developed for an e-commerce
+          business. Features: Pagination, Search, Filtering, Login, Payment w/
+          Stripe. Please note that up-to-day code on Github and published
+          version might have a few differences.
         </p>
         <p class="font-normal mt-4">
           Backend: C# with layered architecture, PostgreSQL, Docker. Frontend:

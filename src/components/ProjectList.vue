@@ -1,6 +1,7 @@
 <script setup>
 import Ortohol from "./Projects/Ortohol.vue";
 import Trittico from "./Projects/Trittico.vue";
+import ChatgptFolders from "./Projects/ChatgptFolders.vue";
 </script>
 
 <template>
@@ -8,5 +9,6 @@ import Trittico from "./Projects/Trittico.vue";
     <p class="text-7xl text-center font-bold text-teal-800">My Projects</p>
     <Ortohol />
     <Trittico />
+    <ChatgptFolders />
   </div>
 </template>

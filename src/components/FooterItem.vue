@@ -2,7 +2,7 @@
 
 <template>
   <div class="bg-gray-800 py-16 px-32 flex justify-between items-center">
-    <p class="text-white">Copyright © 2024. All rights are reserved</p>
+    <p class="text-white">Copyright © 2025. All rights are reserved</p>
 
     <div class="flex gap-12 text-white">
       <a
