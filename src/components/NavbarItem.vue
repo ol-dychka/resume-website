@@ -1,19 +1,21 @@
 <script setup></script>
 
 <template>
-  <header class="sticky top-0">
+  <div
+    class="z-100 fixed left-1/2 top-0 w-full -translate-x-1/2 transform sm:w-1/2"
+  >
     <div
-      class="flex justify-center items-center px-12 pb-2 pt-1 mx-auto w-max font-semibold bg-white shadow-lg gap-20 rounded-b-xl"
+      class="flex justify-around gap-4 rounded-b-xl bg-white p-2 text-base font-semibold shadow-xl sm:text-xl"
     >
-      <a href="#top" class="hover:text-teal-800 duration-200">
+      <a href="#home" class="duration-200 hover:text-teal-800">
         <p>Home</p>
       </a>
-      <a href="#about" class="hover:text-teal-800 duration-200">
+      <a href="#about" class="duration-200 hover:text-teal-800">
         <p>About</p>
       </a>
-      <a href="#projects" class="hover:text-teal-800 duration-200">
+      <a href="#projects" class="duration-200 hover:text-teal-800">
         <p>Projects</p>
       </a>
     </div>
-  </header>
+  </div>
 </template>

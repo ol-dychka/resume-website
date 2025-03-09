@@ -17,6 +17,7 @@ import {
   ViFileTypeJsOfficial,
   ViFileTypeTypescriptOfficial,
   SiMui,
+  GiStrikingArrows,
 } from "oh-vue-icons/icons";
 
 addIcons(
@@ -31,7 +32,8 @@ addIcons(
   ViFileTypeTailwind,
   ViFileTypeTypescriptOfficial,
   ViFileTypeVue,
-  SiMui
+  SiMui,
+  GiStrikingArrows,
 );
 
 const app = createApp(App);
