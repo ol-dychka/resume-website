@@ -1,9 +1,20 @@
-<script setup></script>
+<script setup>
+import { ref } from "vue";
+const email = ref("ol.dychka@gmail.com");
+const copy = () => {
+  navigator.clipboard.writeText("ol.dychka@gmail.com");
+  email.value = "Copied!";
+
+  setTimeout(() => {
+    email.value = "ol.dychka@gmail.com";
+  }, 1000);
+};
+</script>
 
 <template>
-  <div class="px-8 pb-4 pt-20 md:px-32" id="home">
-    <div class="flex flex-wrap items-center justify-between gap-4">
-      <div class="space-y-8">
+  <div class="px-8 pb-8 pt-20 md:px-32" id="home">
+    <div class="flex flex-wrap items-center justify-between gap-8">
+      <div class="space-y-2">
         <p class="text-5xl font-bold text-teal-800 sm:text-7xl">
           Fullstack Developer
         </p>
@@ -13,7 +24,7 @@
         </p>
       </div>
 
-      <div class="flex items-center gap-4">
+      <div class="flex flex-wrap items-center gap-4">
         <a
           href="https://linkedin.com/in/ol-dychka"
           target="_blank"
@@ -35,6 +46,12 @@
         >
           Resume
         </a>
+        <p
+          class="cursor-pointer text-teal-800 underline hover:text-teal-600"
+          @click="copy"
+        >
+          {{ email }}
+        </p>
       </div>
     </div>
 

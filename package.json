@@ -9,8 +9,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@vuesimple/vs-alert": "^3.0.9",
     "oh-vue-icons": "^1.0.0-rc3",
-    "vue": "^3.4.21"
+    "vue": "^3.4.21",
+    "vue-notifications": "^1.0.3"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.4",
