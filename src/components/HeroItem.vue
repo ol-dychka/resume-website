@@ -25,6 +25,12 @@ const copy = () => {
       </div>
 
       <div class="flex flex-wrap items-center gap-4">
+        <p
+          class="basis-full cursor-pointer text-teal-800 underline hover:text-teal-600 sm:basis-auto"
+          @click="copy"
+        >
+          {{ email }}
+        </p>
         <a
           href="https://linkedin.com/in/ol-dychka"
           target="_blank"
@@ -46,12 +52,6 @@ const copy = () => {
         >
           Resume
         </a>
-        <p
-          class="cursor-pointer text-teal-800 underline hover:text-teal-600"
-          @click="copy"
-        >
-          {{ email }}
-        </p>
       </div>
     </div>
 

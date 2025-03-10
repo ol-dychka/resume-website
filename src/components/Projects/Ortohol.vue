@@ -8,21 +8,32 @@
     />
 
     <div class="flex flex-col justify-between gap-6">
-      <div>
+      <div class="space-y-4">
         <p class="text-3xl">Orthopedics Ecommerce Website</p>
         <p class="mt-4 text-lg font-normal sm:text-xl">
-          [Currently Inactive] This website was developed for an e-commerce
-          business. Features: Pagination, Search, Filtering, Login, Payment w/
-          Stripe.
+          This website was developed for an e-commerce orthopedics business.
+          Features login, payment w/ Stripe, pagination, filtering and search.
         </p>
         <p class="mt-4 text-lg font-normal sm:text-xl">
-          Backend: C# with layered architecture, PostgreSQL, Docker. Frontend:
-          React, Typescript, MobX, Material UI
+          On frontend I used React with Typescript, MobX for storage and
+          Material UI for interface.
+        </p>
+        <p class="mt-4 text-lg font-normal sm:text-xl">
+          Backend features .NET C# with layered architecture:<br />API (responds
+          to requests from front-end)<br />
+          Application (processes requests coming from API)<br />Domain (defines
+          all object types used in application)<br />Infrastructure (interacts
+          with image hosting service)<br />Persistence (configures relationships
+          in a database).
+        </p>
+        <p class="mt-4 text-lg font-normal sm:text-xl">
+          Database used is PostgreSQL. Project is built using Docker and image
+          is then hosted on a server.
         </p>
       </div>
       <div class="flex flex-wrap gap-x-8 gap-y-2">
         <a
-          href="https://ortohol-latest.onrender.com/"
+          href="https://ortohol.onrender.com/"
           target="_blank"
           class="duration-200 hover:text-teal-800"
           >Preview</a

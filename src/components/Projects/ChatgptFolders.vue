@@ -11,8 +11,8 @@
       <div>
         <p class="text-3xl">ChatGPT Folders Chrome Extension</p>
         <p class="mt-4 text-lg font-normal sm:text-xl">
-          Extension developed in plain javascript to keep ChatGPT conversations
-          organized in folders.
+          Google Chrome extension developed in plain javascript to keep ChatGPT
+          conversations organized in folders.
         </p>
         <p class="mt-4 text-lg font-normal sm:text-xl">
           It was originally developed with backend in mind, but after ChatGPT

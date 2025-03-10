@@ -20,7 +20,8 @@
             >Columbus Trittico</a
           >
           website that was featured on Awwwards for its design. I maintained the
-          same minimalistic design style.
+          same minimalistic design style. Website is fully responsive and
+          mobile-friendly.
         </p>
         <p class="mt-4 text-lg font-normal sm:text-xl">
           Stack: React, Tailwind
