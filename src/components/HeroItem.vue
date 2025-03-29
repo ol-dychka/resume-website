@@ -46,7 +46,7 @@ const copy = () => {
           <v-icon name="bi-github" scale="2.5" />
         </a>
         <a
-          href="https://docs.google.com/document/d/197otNeEH-Zz82BCh6Zv6c49eMeXKM0BqPIDdiJNRdL8/view?usp=sharing"
+          href="https://drive.google.com/file/d/1kXm5Pa6dqJR1kJDutvFhJ6NOckJzGenT/view"
           target="_blank"
           class="text-lg duration-200 hover:text-teal-800 sm:text-2xl"
         >
