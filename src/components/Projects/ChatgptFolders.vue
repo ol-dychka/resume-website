@@ -8,8 +8,33 @@
     />
 
     <div class="flex flex-col justify-between gap-6">
-      <div>
+      <div class="space-y-4">
         <p class="text-3xl">ChatGPT Folders Chrome Extension</p>
+        <div
+          class="flex flex-wrap items-center gap-x-8 gap-y-2 text-2xl text-teal-800 underline"
+        >
+          <a
+            href="https://chromewebstore.google.com/detail/chatgpt-folders/akgpkjgpdobkagnipbohfpagjmbpjnfb"
+            target="_blank"
+            class="duration-200 hover:text-teal-600"
+          >
+            Extension
+          </a>
+          <a
+            href="https://chatgpt-folders.netlify.app/"
+            target="_blank"
+            class="duration-200 hover:text-teal-600"
+          >
+            Live Demo
+          </a>
+          <a
+            href="https://github.com/ol-dychka/chatgpt-folders"
+            target="_blank"
+            class="duration-200 hover:text-teal-600"
+          >
+            <v-icon name="bi-github" scale="2" />
+          </a>
+        </div>
         <p class="mt-4 text-lg font-normal sm:text-xl">
           Google Chrome extension developed in plain javascript to keep ChatGPT
           conversations organized in folders.
@@ -29,29 +54,6 @@
           >. I used javascript with express and mongoDB, featuring google
           authentification.
         </p>
-      </div>
-      <div class="flex flex-wrap gap-x-8 gap-y-2">
-        <a
-          href="https://chromewebstore.google.com/detail/chatgpt-folders/akgpkjgpdobkagnipbohfpagjmbpjnfb"
-          target="_blank"
-          class="duration-200 hover:text-teal-800"
-        >
-          Extension
-        </a>
-        <a
-          href="https://chatgpt-folders.netlify.app/"
-          target="_blank"
-          class="duration-200 hover:text-teal-800"
-        >
-          Website
-        </a>
-        <a
-          href="https://github.com/ol-dychka/chatgpt-folders"
-          target="_blank"
-          class="duration-200 hover:text-teal-800"
-        >
-          <v-icon name="bi-github" scale="1.5" />
-        </a>
       </div>
     </div>
   </div>

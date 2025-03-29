@@ -10,6 +10,23 @@
     <div class="flex flex-col justify-between gap-6">
       <div class="space-y-4">
         <p class="text-3xl">Orthopedics Ecommerce Website</p>
+        <div
+          class="flex flex-wrap items-center gap-x-8 gap-y-2 text-2xl text-teal-800 underline"
+        >
+          <a
+            href="https://ortohol.onrender.com/"
+            target="_blank"
+            class="duration-200 hover:text-teal-600"
+            >Live Demo</a
+          >
+          <a
+            href="https://github.com/ol-dychka/Ortohol-ecommerce"
+            target="_blank"
+            class="duration-200 hover:text-teal-600"
+          >
+            <v-icon name="bi-github" scale="2" />
+          </a>
+        </div>
         <p class="mt-4 text-lg font-normal sm:text-xl">
           This website was developed for an e-commerce orthopedics business.
           Features login, payment w/ Stripe, pagination, filtering and search.
@@ -27,24 +44,9 @@
           in a database).
         </p>
         <p class="mt-4 text-lg font-normal sm:text-xl">
-          Database used is PostgreSQL. Project is built using Docker and image
-          is then hosted on a server.
+          Database used is PostgreSQL. Project is built using Docker, image is
+          hosted on a server.
         </p>
-      </div>
-      <div class="flex flex-wrap gap-x-8 gap-y-2">
-        <a
-          href="https://ortohol.onrender.com/"
-          target="_blank"
-          class="duration-200 hover:text-teal-800"
-          >Preview</a
-        >
-        <a
-          href="https://github.com/ol-dychka/Ortohol-ecommerce"
-          target="_blank"
-          class="duration-200 hover:text-teal-800"
-        >
-          <v-icon name="bi-github" scale="1.5" />
-        </a>
       </div>
     </div>
   </div>
