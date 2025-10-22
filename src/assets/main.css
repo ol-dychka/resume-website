@@ -3,5 +3,17 @@
 @tailwind utilities;
 
 body {
-  @apply bg-slate-100 text-xl font-semibold text-gray-800;
+  @apply bg-gray-900 text-xl font-semibold text-slate-400;
 }
+
+.element::-webkit-scrollbar {
+  display: none;
+}
+
+html {
+  scrollbar-width: none;
+}
+
+/* bg: gray (900, 950 navbar/footer)
+  text: slate (400, 300 links, 500 annotations)
+  accent: teal (600) */

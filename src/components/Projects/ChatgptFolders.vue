@@ -9,9 +9,9 @@
 
     <div class="flex flex-col justify-between gap-6">
       <div class="space-y-4">
-        <p class="text-3xl">ChatGPT Folders Chrome Extension</p>
+        <p class="text-3xl text-teal-600">ChatGPT Folders Chrome Extension</p>
         <div
-          class="flex flex-wrap items-center gap-x-8 gap-y-2 text-2xl text-teal-800 underline"
+          class="flex flex-wrap items-center gap-x-8 gap-y-2 text-2xl text-slate-300"
         >
           <a
             href="https://chromewebstore.google.com/detail/chatgpt-folders/akgpkjgpdobkagnipbohfpagjmbpjnfb"
@@ -25,7 +25,7 @@
             target="_blank"
             class="duration-200 hover:text-teal-600"
           >
-            Live Demo
+            Website
           </a>
           <a
             href="https://github.com/ol-dychka/chatgpt-folders"
@@ -35,9 +35,15 @@
             <v-icon name="bi-github" scale="2" />
           </a>
         </div>
+        <div class="mt-4 flex flex-wrap gap-x-8 text-slate-500">
+          <p>Javascript</p>
+          <p>Express</p>
+          <p>MongoDB</p>
+          <p>Google Auth</p>
+        </div>
         <p class="mt-4 text-lg font-normal sm:text-xl">
-          Google Chrome extension developed in plain javascript to keep ChatGPT
-          conversations organized in folders.
+          Google Chrome extension designed to keep ChatGPT conversations
+          organized in folders.
         </p>
         <p class="mt-4 text-lg font-normal sm:text-xl">
           It was originally developed with backend in mind, but after ChatGPT
@@ -49,10 +55,9 @@
           <a
             href="https://github.com/ol-dychka/chatgpt-folders-local"
             target="_blank"
-            class="text-teal-800 underline hover:text-teal-600"
+            class="text-slate-300 hover:text-teal-600"
             >here</a
-          >. I used javascript with express and mongoDB, featuring google
-          authentification.
+          >.
         </p>
       </div>
     </div>

@@ -10,9 +10,9 @@
     />
     <div class="flex flex-col justify-between gap-6">
       <div class="space-y-4">
-        <p class="text-3xl">Bicycle Website Landing Page</p>
+        <p class="text-3xl text-teal-600">Bicycle Website Landing Page</p>
         <div
-          class="flex flex-wrap items-center gap-x-8 gap-y-2 text-2xl text-teal-800 underline"
+          class="flex flex-wrap items-center gap-x-8 gap-y-2 text-2xl text-slate-300"
         >
           <a
             href="https://trittico-clone.pages.dev/"
@@ -28,20 +28,21 @@
             <v-icon name="bi-github" scale="2" />
           </a>
         </div>
+        <div class="mt-4 flex flex-wrap gap-x-8 text-slate-500">
+          <p>React</p>
+          <p>Tailwind</p>
+        </div>
         <p class="mt-4 text-lg font-normal sm:text-xl">
-          This website is a replica of
+          This project is a replica of
           <a
             href="https://www.columbus1919.com/trittico"
             target="_blank"
-            class="text-teal-800 underline"
+            class="text-slate-300 duration-200 hover:text-teal-600"
             >Columbus Trittico</a
           >
-          website that was featured on Awwwards for its design. I maintained the
-          same minimalistic design style. Website is fully responsive and
-          mobile-friendly.
-        </p>
-        <p class="mt-4 text-lg font-normal sm:text-xl">
-          Stack: React, Tailwind
+          website, originally featured on Awwwards for its modern design. I
+          recreated it with the same minimalistic style. Website is fully
+          responsive and mobile-friendly.
         </p>
       </div>
     </div>
