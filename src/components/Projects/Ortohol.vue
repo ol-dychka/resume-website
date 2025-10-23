@@ -16,7 +16,7 @@
           <a
             href="https://ortohol.onrender.com/"
             target="_blank"
-            class="duration-200 hover:text-teal-600"
+            class="underline duration-200 hover:text-teal-600"
             >Live Demo</a
           >
           <a

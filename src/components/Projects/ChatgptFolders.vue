@@ -16,14 +16,14 @@
           <a
             href="https://chromewebstore.google.com/detail/chatgpt-folders/akgpkjgpdobkagnipbohfpagjmbpjnfb"
             target="_blank"
-            class="duration-200 hover:text-teal-600"
+            class="underline duration-200 hover:text-teal-600"
           >
             Extension
           </a>
           <a
             href="https://chatgpt-folders.netlify.app/"
             target="_blank"
-            class="duration-200 hover:text-teal-600"
+            class="underline duration-200 hover:text-teal-600"
           >
             Website
           </a>

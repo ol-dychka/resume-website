@@ -12,7 +12,7 @@ const copy = () => {
 </script>
 
 <template>
-  <div class="z-100 fixed top-0 w-full">
+  <div class="fixed top-0 z-50 w-full">
     <div
       class="flex items-center justify-around gap-4 bg-gray-950 p-2 font-semibold text-slate-300 shadow-xl"
     >

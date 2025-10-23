@@ -1,16 +1,16 @@
 <script setup>
 import { ref } from "vue";
-const isOpen = ref(true);
+const isOpen = ref(false);
 </script>
 
 <template>
   <div class="px-32">
     <div class="space-y-4">
       <p
-        class="cursor-pointer text-slate-300 duration-200 hover:text-teal-600"
+        class="cursor-pointer text-slate-300 underline duration-200 hover:text-teal-600"
         @click="isOpen = !isOpen"
       >
-        About Me {{ isOpen ? "<" : ">" }}
+        {{ isOpen ? "＜" : "＞" }}About Me
       </p>
       <transition
         enter-from-class="opacity-0  max-h-0"

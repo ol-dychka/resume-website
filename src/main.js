@@ -18,9 +18,14 @@ import {
   ViFileTypeTypescriptOfficial,
   SiMui,
   GiStrikingArrows,
-  ViFileTypeJava,
+  LaJava,
   ViFileTypeAngular,
   ViFileTypeSass,
+  IoLogoDocker,
+  FaAws,
+  ViFileTypeTerraform,
+  ViFileTypePgsql,
+  ViFileTypeMongo,
 } from "oh-vue-icons/icons";
 
 addIcons(
@@ -37,9 +42,14 @@ addIcons(
   ViFileTypeVue,
   SiMui,
   GiStrikingArrows,
-  ViFileTypeJava,
+  LaJava,
   ViFileTypeAngular,
   ViFileTypeSass,
+  IoLogoDocker,
+  FaAws,
+  ViFileTypeTerraform,
+  ViFileTypePgsql,
+  ViFileTypeMongo,
 );
 
 const app = createApp(App);
