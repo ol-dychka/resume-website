@@ -2,7 +2,7 @@
 
 <template>
   <div class="px-8 pb-8 pt-20 md:px-32">
-    <div class="flex items-center justify-between gap-8">
+    <div class="flex flex-col items-center justify-between gap-8 md:flex-row">
       <div class="z-10 space-y-2">
         <p class="text-5xl font-bold text-teal-600 sm:text-7xl">
           Oleksandr Dychka
@@ -15,10 +15,8 @@
         </p>
       </div>
       <div class="mt-12 space-y-8">
-        <div class="relative flex items-center gap-4">
-          <p
-            class="absolute -left-96 -top-1.5 z-0 text-6xl font-black text-slate-800"
-          >
+        <div class="flex items-center justify-center gap-4 md:justify-end">
+          <p class="hidden text-6xl font-black text-slate-800 lg:block">
             LANGUAGES
           </p>
           <v-icon
@@ -34,40 +32,38 @@
           <v-icon name="la-java" scale="2.5" class="z-10 text-red-600" />
           <v-icon name="vi-file-type-csharp2" scale="2.5" class="z-10" />
         </div>
-        <div class="relative ml-8 flex items-center gap-4">
-          <p
-            class="absolute -left-[357px] -top-1.5 z-0 text-6xl font-black text-slate-800"
-          >
-            FRAMEWORKS
+        <div
+          class="flex items-center justify-center gap-4 md:-mr-8 md:justify-end"
+        >
+          <p class="hidden text-6xl font-black text-slate-800 lg:block">
+            FRONTEND
           </p>
           <v-icon name="vi-file-type-reactjs" scale="2.5" class="z-10" />
           <v-icon name="vi-file-type-vue" scale="2.5" class="z-10" />
-          <v-icon name="vi-file-type-next" scale="2.5" class="z-10" />
           <v-icon name="vi-file-type-angular" scale="2.5" class="z-10" />
+          <v-icon
+            name="md-extension-sharp"
+            scale="2.5"
+            class="z-10 text-slate-300"
+          />
         </div>
-        <div class="relative flex items-center gap-4">
-          <p
-            class="absolute -left-[266px] -top-1.5 z-0 text-6xl font-black text-slate-800"
-          >
+        <div class="flex items-center justify-center gap-4 md:justify-end">
+          <p class="hidden text-6xl font-black text-slate-800 lg:block">
             STYLING
           </p>
           <v-icon name="vi-file-type-tailwind" scale="2.5" class="z-10" />
           <v-icon name="si-mui" scale="2.5" class="z-10 text-blue-600" />
           <v-icon name="vi-file-type-sass" scale="2.5" class="z-10" />
         </div>
-        <div class="relative ml-8 flex items-center gap-4">
-          <p
-            class="absolute -left-24 -top-1.5 z-0 text-6xl font-black text-slate-800"
-          >
-            DB
-          </p>
+        <div
+          class="flex items-center justify-center gap-4 md:-mr-8 md:justify-end"
+        >
+          <p class="hidden text-6xl font-black text-slate-800 lg:block">DB</p>
           <v-icon name="vi-file-type-pgsql" scale="2.5" class="z-10" />
           <v-icon name="vi-file-type-mongo" scale="2.5" class="z-10" />
         </div>
-        <div class="relative flex items-center gap-4">
-          <p
-            class="absolute -left-[220px] -top-1.5 z-0 text-6xl font-black text-slate-800"
-          >
+        <div class="flex items-center justify-center gap-4 md:justify-end">
+          <p class="hidden text-6xl font-black text-slate-800 lg:block">
             CLOUD
           </p>
           <v-icon

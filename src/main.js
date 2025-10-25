@@ -12,7 +12,6 @@ import {
   ViFileTypeReactjs,
   ViFileTypeVue,
   ViFileTypeTailwind,
-  ViFileTypeNext,
   ViFileTypeCsharp2,
   ViFileTypeJsOfficial,
   ViFileTypeTypescriptOfficial,
@@ -26,6 +25,7 @@ import {
   ViFileTypeTerraform,
   ViFileTypePgsql,
   ViFileTypeMongo,
+  MdExtensionSharp,
 } from "oh-vue-icons/icons";
 
 addIcons(
@@ -35,7 +35,6 @@ addIcons(
   ViFileTypeCss,
   ViFileTypeHtml,
   ViFileTypeJsOfficial,
-  ViFileTypeNext,
   ViFileTypeReactjs,
   ViFileTypeTailwind,
   ViFileTypeTypescriptOfficial,
@@ -50,6 +49,7 @@ addIcons(
   ViFileTypeTerraform,
   ViFileTypePgsql,
   ViFileTypeMongo,
+  MdExtensionSharp,
 );
 
 const app = createApp(App);

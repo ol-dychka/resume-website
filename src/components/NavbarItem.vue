@@ -14,7 +14,7 @@ const copy = () => {
 <template>
   <div class="fixed top-0 z-50 w-full">
     <div
-      class="flex items-center justify-around gap-4 bg-gray-950 p-2 font-semibold text-slate-300 shadow-xl"
+      class="flex flex-wrap items-center justify-around gap-4 bg-gray-950 p-2 font-semibold text-slate-300 shadow-xl"
     >
       <div class="relative">
         <p

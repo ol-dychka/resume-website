@@ -4,7 +4,7 @@ const isOpen = ref(false);
 </script>
 
 <template>
-  <div class="px-32">
+  <div class="px-8 md:px-32">
     <div class="space-y-4">
       <p
         class="cursor-pointer text-slate-300 underline duration-200 hover:text-teal-600"
