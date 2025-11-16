@@ -31,7 +31,7 @@ const copy = () => {
         </p>
       </div>
       <a
-        href="https://drive.google.com/file/d/1kXm5Pa6dqJR1kJDutvFhJ6NOckJzGenT/view"
+        href="https://drive.google.com/file/d/1NL263ebxoMcRGActlPllz9Hxtn9lGXa_/view?usp=sharing"
         target="_blank"
         class="duration-200 hover:text-teal-600"
       >
