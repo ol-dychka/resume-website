@@ -26,6 +26,9 @@ import {
   ViFileTypePgsql,
   ViFileTypeMongo,
   MdExtensionSharp,
+  ViFileTypePython,
+  SiCsharp,
+  CoRedis,
 } from "oh-vue-icons/icons";
 
 addIcons(
@@ -50,6 +53,9 @@ addIcons(
   ViFileTypePgsql,
   ViFileTypeMongo,
   MdExtensionSharp,
+  ViFileTypePython,
+  SiCsharp,
+  CoRedis,
 );
 
 const app = createApp(App);

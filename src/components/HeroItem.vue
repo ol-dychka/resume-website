@@ -1,4 +1,6 @@
-<script setup></script>
+<script setup>
+import TechIcon from "./reusable/TechIcon.vue";
+</script>
 
 <template>
   <div class="px-8 pb-8 pt-20 md:px-32">
@@ -11,26 +13,32 @@
           Fullstack Developer
         </p>
         <p class="text-base text-slate-500">
-          Passionate developer and avid learner based in Toronto, Canada
+          Passionate developer and enthusiastic learner based in Toronto, Canada
         </p>
       </div>
       <div class="mt-12 space-y-8">
         <div class="flex items-center justify-center gap-4 md:justify-end">
           <p class="hidden text-6xl font-black text-slate-800 lg:block">
-            LANGUAGES
+            BACKEND
           </p>
-          <v-icon
-            name="vi-file-type-js-official"
-            scale="2.5"
-            class="z-10 text-stone-800"
+
+          <TechIcon icon="si-csharp" title="C#" class="text-purple-600" />
+          <TechIcon icon="vi-file-type-python" title="Python" />
+          <TechIcon
+            icon="vi-file-type-js-official"
+            class="text-stone-800"
+            title="Javascript"
           />
-          <v-icon
-            name="vi-file-type-typescript-official"
-            scale="2.5"
-            class="z-10"
-          />
-          <v-icon name="la-java" scale="2.5" class="z-10 text-red-600" />
-          <v-icon name="vi-file-type-csharp2" scale="2.5" class="z-10" />
+          <TechIcon icon="vi-file-type-typescript-official" title="Typescipt" />
+        </div>
+        <div
+          class="flex items-center justify-center gap-4 md:-mr-8 md:justify-end"
+        >
+          <p class="hidden text-6xl font-black text-slate-800 lg:block">DB</p>
+
+          <TechIcon icon="vi-file-type-pgsql" title="PostgreSQL" />
+          <TechIcon icon="vi-file-type-mongo" title="MongoDB" />
+          <TechIcon icon="co-redis" class="text-red-500" title="Redis" />
         </div>
         <div
           class="flex items-center justify-center gap-4 md:-mr-8 md:justify-end"
@@ -38,41 +46,32 @@
           <p class="hidden text-6xl font-black text-slate-800 lg:block">
             FRONTEND
           </p>
-          <v-icon name="vi-file-type-reactjs" scale="2.5" class="z-10" />
-          <v-icon name="vi-file-type-vue" scale="2.5" class="z-10" />
-          <v-icon name="vi-file-type-angular" scale="2.5" class="z-10" />
-          <v-icon
-            name="md-extension-sharp"
-            scale="2.5"
-            class="z-10 text-slate-300"
+          <TechIcon icon="vi-file-type-reactjs" title="React" />
+          <TechIcon icon="vi-file-type-vue" title="Vue" />
+          <TechIcon icon="vi-file-type-angular" title="Angular" />
+          <TechIcon
+            icon="md-extension-sharp"
+            class="text-slate-300"
+            title="Browser Extensions"
           />
         </div>
         <div class="flex items-center justify-center gap-4 md:justify-end">
-          <p class="hidden text-6xl font-black text-slate-800 lg:block">
-            STYLING
-          </p>
-          <v-icon name="vi-file-type-tailwind" scale="2.5" class="z-10" />
-          <v-icon name="si-mui" scale="2.5" class="z-10 text-blue-600" />
-          <v-icon name="vi-file-type-sass" scale="2.5" class="z-10" />
-        </div>
-        <div
-          class="flex items-center justify-center gap-4 md:-mr-8 md:justify-end"
-        >
-          <p class="hidden text-6xl font-black text-slate-800 lg:block">DB</p>
-          <v-icon name="vi-file-type-pgsql" scale="2.5" class="z-10" />
-          <v-icon name="vi-file-type-mongo" scale="2.5" class="z-10" />
+          <TechIcon icon="vi-file-type-html" title="HTML" />
+          <TechIcon icon="vi-file-type-css" title="CSS" />
+          <TechIcon icon="vi-file-type-tailwind" title="Tailwind" />
+          <TechIcon icon="si-mui" class="text-blue-600" title="Material UI" />
+          <TechIcon icon="vi-file-type-sass" title="SASS" />
         </div>
         <div class="flex items-center justify-center gap-4 md:justify-end">
           <p class="hidden text-6xl font-black text-slate-800 lg:block">
-            CLOUD
+            DEVOPS
           </p>
-          <v-icon
-            name="io-logo-docker"
-            scale="2.5"
-            class="z-10 text-blue-500"
+          <TechIcon
+            icon="io-logo-docker"
+            class="text-blue-500"
+            title="Docker"
           />
-          <v-icon name="fa-aws" scale="2.5" class="z-10 text-orange-500" />
-          <v-icon name="vi-file-type-terraform" scale="2.5" class="z-10" />
+          <TechIcon icon="fa-aws" class="text-orange-500" title="AWS" />
         </div>
       </div>
     </div>
